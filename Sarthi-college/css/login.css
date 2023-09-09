@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    clip-path: circle(50% at 50% 50%);
+}
+body{
+    background-image: url(/images/loginbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    justify-content: space-between;
+    
+    margin-left: 20px;
+    
+    display: flex;
+    
+    
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    
+    
+}
+.navbar ul li{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-style: oblique;
+    
+}
+.navbar ul li a{
+    
+    text-decoration: none;
+}
+.navbar ul li:hover{
+    background-color: rgb(150, 213, 49);
+}
+
+main{
+    
+    text-align: center;
+    justify-content: space-between;
+    padding: 80px ;
+    margin: 100px;
+    
+    border: 2px;
+    border-style: double;
+    border-radius: 20px;
+}
+.form-box button{
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    font-size: medium;
+    width: 200px;
+    padding: 10px;
+
+}
+.form-box button:hover{
+    background-color: greenyellow;
+}
+footer div p {
+    display: flex;
+    justify-content: flex-end;
+    border-top: solid 0.15rem #053f22;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    right: 0;
+}
